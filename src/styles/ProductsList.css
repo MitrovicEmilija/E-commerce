@@ -1,0 +1,14 @@
+/* Style for the products container */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid with minimum width of 250px */
+    gap: 20px; /* Gap between product items */
+    margin: 20px auto; /* Center the grid on the page and add some margin */
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    /* Optional: Add a background color or other styles as needed */
+    /* background-color: #f7f7f7; */
+    /* padding: 20px; */
+  }
+  

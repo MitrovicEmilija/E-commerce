@@ -1,0 +1,71 @@
+/* Style for the product card container */
+.product__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
+    gap: 20px; /* Gap between grid items */
+    border: 1px solid #ddd; /* Add borders if desired */
+    padding: 10px;
+    background-color: #fff; /* Background color of the card */
+  }
+  
+  /* Style for the product image */
+  .product__image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the product info container */
+  .product__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Style for the product name */
+  .product__name {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Style for the product description */
+  .product__description {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0;
+  }
+  
+  /* Style for the product details container */
+  .product__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the product price */
+  .product__price {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style for the "Add to cart" button */
+  .product__btn {
+    background-color: #e0afa0; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    transform: scale(0.8);
+  }
+  
+  /* Style for the button on hover */
+  .product__btn:hover {
+    background-color: #bcb8b1; /* Hover background color */
+  }
+  

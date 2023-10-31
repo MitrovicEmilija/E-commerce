@@ -1,0 +1,157 @@
+/* Style for the cart item container */
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Add a border between items */
+    padding: 10px 0; /* Add padding between items */
+    margin-left: 20px;
+  }
+  
+  /* Style for the cart item image */
+  .cart-item__image {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  /* Style for the cart item details container */
+  .cart-item__details {
+    flex: 1; /* Expand to fill available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px; /* Add some space between the image and details */
+  }
+  
+  /* Style for the cart item name */
+  .cart-item__details-name {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Style for the cart item quantity section */
+  .cart-item__details-qty {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px; /* Add space between name and quantity */
+  }
+  
+  /* Style for the quantity buttons */
+  .cart-item__details-qty button {
+    background-color: #e0afa0; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    margin: 0 5px; /* Add space between buttons */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  /* Style for the quantity display */
+  .cart-item__details-qty p {
+    margin: 0 5px; /* Add space around the quantity display */
+  }
+  
+  /* Style for the cart item price */
+  .cart-item__details-price {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Style for the remove button */
+  .cart-item__remove {
+    background-color: #e0afa0; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Add space between details and the remove button */
+    margin-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  /* Style for the button on hover */
+  .cart-item__remove:hover {
+    background-color: #bcb8b1; /* Hover background color */
+  }
+
+  /* Style for the cart total section */
+.cart__total {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0; /* Add margin above and below the section */
+    border-top: 1px solid #ccc; /* Add a border above the section */
+    padding: 10px 0;
+  }
+  
+  /* Style for the subtotal title */
+  .cart__total-title {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  /* Style for the subtotal price */
+  .cart__total-price {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-right: 30px;
+  }
+  
+  /* Style for the cart footer section */
+  .cart__footer {
+    margin-top: 20px; /* Add space between the total section and the footer */
+    margin-left: 20px;
+  }
+  
+  /* Style for the empty cart button */
+  .cart__btn-empty {
+    background-color: #e0afa0; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 10px;
+  }
+  
+  /* Style for the button on hover */
+  .cart__btn-empty:hover {
+    background-color: #bcb8b1; /* Hover background color */
+  }
+
+  .cart__btn-checkout {
+    background-color: #e0afa0; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+  .cart__heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .cart__none {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  
